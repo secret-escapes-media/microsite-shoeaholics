@@ -1,0 +1,22 @@
+<div class="banner banner--review">
+  <div class="site-header__offset"></div>
+  <div class="banner__bg" style="background-image: url('{{site.img}}/banner/{{page.id}}.jpg')">
+    <div class="banner__bg-fade"></div>
+  </div>
+  <div class="banner__wrap">
+
+    <div class="container container--no-padding text--center">
+      <div class="banner__breadcrumbs">
+        <a href="{{site.baseurl}}" class="banner__breadcrumbs-item">
+          <span class="btn btn--round-sm btn--round btn--arrow btn--arrow-left"></span>
+          Go back
+        </a><span class="banner__breadcrumbs-item">{{page.title}}</span>
+      </div>
+      <h1 class="title title--xxxxxl">{% if page.banner.title %}{{page.banner.title}}{% else %}{{page.title}}{% endif %}</h1>
+      <h2 class="title title--sm text--italic">by <span class="text--bold">{{page.reviewer}}</span></h2>
+      <div class="space--xxl"></div>
+      <a href="#content-start" class="btn btn--round-lg btn--round btn--arrow btn--arrow-down"></a>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,73 @@
+---
+layout: default
+---
+
+
+
+<div class="wp" id="content-start"></div>
+<div class="review__intro container container--xxl text--center">
+  {{page.intro}}
+</div>
+
+
+<div class="review vpad--xxl">
+  {% for section in page.page-sections %}
+    <div class="container">
+
+      <h2 class="title title--xxl text--bold">{{section.section-title}}</h2>
+      <div class="space--xxl"></div>
+
+      <div class="row row--valign-center">
+        <div class="col col--7">
+          <div class="row row--valign-center">
+            <div class="col col--6 bg-img bg-img--2-3" style="background-image: url({{site.img}}/img.jpg);"></div>
+            <div class="col col--6 bg-img bg-img--2-3" style="background-image: url({{site.img}}/img.jpg);"></div>
+          </div>
+        </div>
+        <div class="col col--5">
+          <h4 class="title title--sm text--bold text--italic">{{section.title}}</h4>
+          {% if section.subtitle %}
+          <div class="space--xs"></div>
+          <span class="title text--bold text--upper text--wide-kern">{{section.subtitle}}</span>
+          {% endif %}
+          <div class="space--xxs"></div>
+          {{section.content}}
+        </div>
+      </div>
+
+    </div>
+  {% endfor %}
+</div>
+
+
+<div class="vpad--xxl bg--grey-lightest">
+  <div class="container">
+
+    <div class="row row--6-6">
+      {% assign reviewpages = site.html_pages | where: 'content-pages', 'true' | sort: 'nav-order' %}
+      {% for reviewpage in reviewpages %}
+        {% unless reviewpage.id == page.id %}
+        <div class="col">
+          <div class="bg-img bg-img--1-1" style="background-image: url('{{site.img}}/banner/{{reviewpage.id}}.jpg');">
+            <a href="{{site.baseurl}}{{reviewpage.url}}" class="bg-img__link"></a>
+            <div class="bg-img__content">
+              <div class="boxpad--lg">
+                <h4 class="title title--md text--bold">{{reviewpage.title}}</h4>
+                <div class="space--sm"></div>
+                <div class="title title--xxxs text--italic">By <span class="text--bold">{{reviewpage.reviewer}}</span></div>
+                <div class="space--lg"></div>
+                <a href="{{reviewpage.link}}" class="btn btn--round btn--arrow btn--arrow-right"></a>
+              </div>
+            </div>
+            <div class="bg-img__bg-overlay"></div>
+          </div>
+        </div>
+        {% endunless %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+{% include page/section-competition.html %}
+

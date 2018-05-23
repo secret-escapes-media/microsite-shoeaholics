@@ -1,0 +1,12 @@
+// general styles for the project that wouldn't be a reuseable component
+
+
+.review {
+  &__intro {
+    position: relative;
+    margin-top: -60px;
+    padding: $s8 $s6;
+    background-color: $white;
+    box-shadow: 0 5px 50px 0 rgba($grey-darkest,0.2);
+  }
+}

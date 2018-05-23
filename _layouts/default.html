@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include page/head.html %}
+
+  <body>
+
+    {% include components/tracking.html %}
+
+    {% include page/header.html %}
+
+    {% if page.layout == 'review' %}
+      {% include page/review-banner.html %}
+    {% endif %}
+
+    <div class="main-content content-spacing section-spacing">
+      {{ content }}
+    </div>
+
+    {% include page/footer.html %}
+
+    {% include modal/modal.html %}
+
+  </body>
+
+</html>
