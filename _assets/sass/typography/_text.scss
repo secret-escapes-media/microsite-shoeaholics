@@ -2,10 +2,14 @@
 
 .text {
   // sizes
-  &--xxl { font-size: 1.2rem; line-height: 1.6; letter-spacing: 0; }
-  &--xl  { font-size: 1.1rem; line-height: 1.6; letter-spacing: 0; }
-  &--lg  { font-size: 1.05rem; letter-spacing: 0; }
+  &--xxl { font-size: 1.12rem; line-height: 1.6; letter-spacing: 0; }
+  &--xl  { font-size: 1.12rem; line-height: 1.6; letter-spacing: 0; }
+  &--lg  { font-size: 1.12rem; letter-spacing: 0; }
   &--sm  { font-size: .8rem; }
+  @include bp($lg){
+  &--xxl { font-size: 1.4rem; line-height: 1.6; letter-spacing: 0; }
+  &--xl  { font-size: 1.25rem; line-height: 1.6; letter-spacing: 0; }
+  }
 
   // styles
   &--italic       { font-style: italic; }
@@ -14,6 +18,7 @@
   &--bold         { font-weight: 500; }
   &--bolder       { font-weight: 600; }
   &--boldest      { font-weight: 700; }
+  &--wide-kern-sm { letter-spacing: .05em; }
   &--wide-kern    { letter-spacing: .15em; }
   &--wide-kern-lg { letter-spacing: .3em; }
   &--upper        { text-transform: uppercase; }

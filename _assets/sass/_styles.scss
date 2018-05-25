@@ -7,6 +7,39 @@
     margin-top: -60px;
     padding: $s8 $s6;
     background-color: $white;
-    box-shadow: 0 5px 50px 0 rgba($grey-darkest,0.2);
+    box-shadow: 0 5px 50px 0 rgba($grey-darkest,0.1);
+  }
+  &__section {
+    &-title {
+      position: relative;
+      z-index: 1;
+    }
   }
 }
+
+.intro {
+  &--extrude {
+    position: relative;
+    margin-top: -60px;
+    margin-bottom: $s4;
+    padding: $s8 $s6;
+    background-color: $white;
+  }
+}
+
+.promo {
+  position: relative;
+  &__content {
+    position: relative;
+    z-index: 1;
+  }
+  &__overlay {
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    z-index: $z-content;
+    background-color: rgba($grey-darkest,0.3);
+  }
+}
+
+

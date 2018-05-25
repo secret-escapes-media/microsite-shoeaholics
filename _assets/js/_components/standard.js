@@ -57,3 +57,24 @@ function getQueryStringByName(name, url) {
   if (!results[2]) return true;
   return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
+
+///////////////////////////////////////
+//   Banner fade
+///////////////////////////////////////
+
+function bannerfade(){
+	var st = $(document).scrollTop();
+	var wh = $(window).height();
+  var opacity = ((wh - (st*2)) / -wh)+1;
+
+  if(st<wh && opacity<0.8){
+  	$('.banner__overlay').css({
+  		"opacity": opacity
+  	});
+  }
+}
+
+$(document).scroll(function() {
+	bannerfade();
+});
+

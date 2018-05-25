@@ -12,7 +12,7 @@
   color: $white;
   background-color: $grey;
   @include bp($lg){
-    height: 90%;
+    height: 75%;
     min-height: 650px;
     max-height: none;
   }
@@ -47,6 +47,14 @@
       background: linear-gradient(to bottom, rgba($white,0) 0%,rgba($white,1) 100%);
     }
   }
+  &__overlay {
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    z-index: $z-content;
+    background-color: rgba($grey-darkest,0.8);
+    opacity: 0;
+  }
   &__nav {
     // optional container for navigation include
     position: absolute;
@@ -61,28 +69,37 @@
   }
 
   &__breadcrumbs {
+    display: inline-block;
     margin-bottom: 2rem;
+    font-family: $font-title-02;
+    font-size: 1.1rem;
+    font-weight: 400;
     & a { font-weight: 700; }
-    &-item {
-      height: 40px;
+    &-arrow {
       display: inline-block;
-      font-size: 1.1rem;
-      font-weight: 500;
+      margin-right: 0.5rem;
+      margin-bottom: -12px;
+    }
+    &-item {
+      display: inline-block;
       margin-right: 1.1rem;
       padding-right: 1.1rem;
       border-right: 1px solid rgba($white,0.4);
-      & .btn {
-        margin-right: 0.5rem;
-        margin-bottom: -12px;
-      }
       &:last-child { padding-right: 0; border: 0; }
     }
   }
 
-
+  // Review banner
   &--review {
     height: 100%;
     max-height: 100%;
     min-height: 800px;
+  }
+
+  // Overview banner
+  &--overview {
+    color: $grey-dark;
+    padding: 8em 0 14em;
+    .banner__overlay { background-color: $white; }
   }
 }

@@ -9,9 +9,13 @@
 
     {% include page/header.html %}
 
-    {% if page.layout == 'review' %}
-      {% include page/review-banner.html %}
-    {% endif %}
+    {% unless page.id == 'overview' %}
+      {% if page.layout == 'review' %}
+        {% include page/review-banner.html %}
+      {% else %}
+        {% include page/banner.html %}
+      {% endif %}
+    {% endunless %}
 
     <div class="main-content content-spacing section-spacing">
       {{ content }}

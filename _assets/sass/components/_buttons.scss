@@ -40,19 +40,28 @@
       &:before { border-color: $orange; }
     }
   }
+  &--solid {
+    background-color: darken($b-blue,10);
+    &:hover { background-color: $b-blue; }
+  }
+
+
+  // ROUND
   &--round {
-    @include transition();
+    $size-sm: 40px;
     $size: 60px;
+    $size-lg: 80px;
+    @include transition();
     border-radius: 50%;
     width: $size; height: $size;
     padding: 0;
     &-sm {
-      $size: 40px;
-      width: $size; height: $size;
+      width: $size-sm; height: $size-sm;
     }
-    &-lg {
-      $size: 80px;
-      width: $size; height: $size;
+    @include bp($lg){
+      &-lg {
+        width: $size-lg; height: $size-lg;
+      }
     }
   }
   &--arrow {
@@ -72,10 +81,16 @@
       top: 25%; bottom: 25%;
       left: 25%; right: 25%;
     }
-    &-right:before { background-image: url('../img/icons/arrow-right.svg'); }
-    &-left:before  { background-image: url('../img/icons/arrow-left.svg'); }
-    &-down:before  { background-image: url('../img/icons/arrow-down.svg'); }
-    &-up:before    { background-image: url('../img/icons/arrow-up.svg'); }
+    &-right:before { background-image: url('../img/icons/arrow-right-sm.svg'); }
+    &-left:before  { background-image: url('../img/icons/arrow-left-sm.svg'); }
+    &-down:before  { background-image: url('../img/icons/arrow-down-sm.svg'); }
+    &-up:before    { background-image: url('../img/icons/arrow-up-sm.svg'); }
+    @include bp($lg){
+      &-right:before { background-image: url('../img/icons/arrow-right.svg'); }
+      &-left:before  { background-image: url('../img/icons/arrow-left.svg'); }
+      &-down:before  { background-image: url('../img/icons/arrow-down.svg'); }
+      &-up:before    { background-image: url('../img/icons/arrow-up.svg'); }
+    }
 
     // alternative image for small buttons
     &.btn--round-sm:before { background-image: url('../img/icons/arrow-right-sm.svg'); }

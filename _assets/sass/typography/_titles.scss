@@ -5,7 +5,10 @@
   // custom content headline
   font-family: $font-title-01;
   line-height: 1.2;
-  &--xxxxxl { font-size: $s10; }
+
+  &--mono { font-family: $font-title-02; }
+
+  &--xxxxxl { font-size: $s8; }
   &--xxxxl  { font-size: $s8; }
   &--xxxl   { font-size: $s8; }
   &--xxl    { font-size: $s7; }

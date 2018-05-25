@@ -15,69 +15,48 @@ banner:
 ---
 
 
-<div class="vpad--xxxxl">
+<div class="vpad--xxxxl banner banner--overview" style="background-image: url({{site.img}}/banner/overview.jpg);">
   <div class="site-header__offset"></div>
-  <div class="container text--center">
+  <div class="site-nav__offset"></div>
 
-    <h1 class="title banner-title banner-title--xl text--bolder">{{page.banner.title}}</h1>
-
-    <div class="space--xxs"></div>
-    <span class="title title--sm text--bold text--italic">{{page.banner.title-sub}}</span>
-    <div class="space--xs"></div>
-
-    <hr class="hr--center">
-    <div class="width width--xl">
-      {{page.banner.intro}}
-    </div>
-
-  </div>
-</div>
-
-
-
-<div class="container container--100">
-
-  <div class="row row--xxl-4-4-4">
-    {% assign content-pages = site.html_pages | where: 'content-pages', 'true' | sort: 'nav-order' %}
-    {% for page in content-pages %}
-      <div class="col">
-        <div class="bg-img bg-img--4-3 bg-img--md-1-1 bg-img--xxl-2-3" style="background-image: url('{{site.img}}/banner/{{page.id}}.jpg');">
-          <a href="{{site.baseurl}}{{page.url}}" class="bg-img__link"></a>
-          <div class="bg-img__content">
-            <div class="boxpad--lg">
-              <h4 class="title title--md text--bold">{{page.title}}</h4>
-              <div class="space--sm"></div>
-              <div class="title title--xxxs text--italic">By <span class="text--bold">{{page.reviewer}}</span></div>
-              <div class="space--lg"></div>
-              <a href="{{page.link}}" class="btn btn--round btn--arrow btn--arrow-right"></a>
-            </div>
-          </div>
-          <div class="bg-img__bg-overlay"></div>
-        </div>
+  <div class="banner__wrap">
+    <div class="container text--center">
+      <h1 class="title banner-title banner-title--xl text--bolder">{{page.banner.title}}</h1>
+      <div class="space--xxs"></div>
+      <span class="title title--xs title--mono text--normal">{{page.banner.title-sub}}</span>
+      <div class="space--xs"></div>
+      <hr class="hr--center">
+      <div class="width width--xl">
+        {{page.banner.intro}}
+        <div class="space--md"></div>
+        <a href="{{site.baseurl}}/competition" class="btn btn--lg btn--solid">Enter competition</a>
       </div>
-    {% endfor %}
-  </div>
-</div>
-
-
-<div class="container vpad--xxxl">
-  <div class="row text--center">
-    <h2 class="title title--lg text--boldest text--upper">Offers</h2>
-    <div class="space--xxxl"></div>
-  </div>
-  <div class="row row--xl-6-6">
-    {% for offer in site.data.offers %}
-    <div class="col">
-      {% include offer/offer.html %}
     </div>
-    {% endfor %}
   </div>
 
-    <div class="space--xxl text--center">
-    <a href="" class="btn btn--orange">View all UK Getaways</a>
-</div>
+  <div class="site-nav__offset"></div>
+  <div class="banner__overlay"></div>
 </div>
 
 
-{% include page/section-competition.html %}
+
+<div class="container container--100 bg--white">
+
+  <div class="row">
+    <div class="container container--xxl vpad--xl text--center intro intro--extrude">
+      <h2 class="title title--md text--bold">Read about our favourite UK getaways</h2>
+      <p class="text--xl">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur blandit tempus porttitor.</p>
+    </div>
+  </div>
+
+  {% include page/all-reviews.html %}
+</div>
+
+<div class="vpad--xxl">
+  <div class="container text--center">
+    <a href="{{site.baseurl}}/offers" class="btn btn--lg btn--orange">View all UK Getaways</a>
+  </div>
+</div>
+
+{% include page/promo-comp.html %}
 
