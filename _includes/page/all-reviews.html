@@ -1,8 +1,8 @@
-<div class="row row--lg-6-6 row--xxxl-4-4-4">
+<div class="row row--xl-6-6">
   {% assign content-pages = site.html_pages | where: 'content-pages', 'true' | sort: 'group-order' %}
   {% for page in content-pages %}
     <div class="col">
-      <div class="bg-img bg-img--4-3 bg-img--lg-1-1 bg-img--xxxl-2-3" style="background-image: url('{{site.img}}/banner/{{page.id}}.jpg');">
+      <div class="bg-img bg-img--4-3 bg-img--lg-1-1 bg-img--xxxl-4-3" style="background-image: url('{{site.img}}/banner/{{page.id}}.jpg');">
         <a href="{{site.baseurl}}{{page.url}}" class="bg-img__link"></a>
         <div class="bg-img__content">
           <div class="boxpad--lg">
