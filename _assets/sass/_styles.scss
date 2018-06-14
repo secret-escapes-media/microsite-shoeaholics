@@ -2,13 +2,6 @@
 
 
 .review {
-  &__by {
-    position: relative;
-    margin-top: -60px;
-    padding: $s4 $s4;
-    background-color: $white;
-    box-shadow: 0 5px 50px 0 rgba($grey-darkest,0.1);
-  }
   &__section {
     &-title {
       position: relative;
@@ -45,9 +38,9 @@
   &--extrude {
     position: relative;
     margin-top: -60px;
-    margin-bottom: $s4;
-    padding: $s8 $s6;
+    padding: $s4 $s4;
     background-color: $white;
+    box-shadow: 0 20px 60px 0 rgba($grey-darkest,0.05);
   }
 }
 

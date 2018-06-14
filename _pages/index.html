@@ -6,16 +6,17 @@ nav-order: 1
 title: Overview
 
 banner:
-  title: UK Getaways
+  title: Fashion-forward staycations
   title-sub: with Shoeaholics & Secret Escapes
   intro: >
-    <p class="text--xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque illum possimus doloremque, voluptates tempore accusamus alias nihil sunt nesciunt placeat perspiciatis adipisci est maiores dolorem quos aperiam! </p>
+    <p class="text--xl">Put your best foot forward with enviable UK staycations brought to you by Shoeaholics and Secret Escapes.</p>
+    <p class="text--xl">Whether you prefer the colourful palette of a country retreat, with grand lodges, sprawling gardens and summer-night walks, or you crave the buzz of the city where chic cocktail bars, endless boutiques to explore and galleries and cafes vie for your attention – pick your perfect staycation and get the right look here.</p>
 
 
 ---
 
 
-<div class="vpad--xxxxl banner banner--overview" style="background-image: url({{site.img}}/banner/overview.jpg);">
+<div class="vpad--xxxxl banner banner--overview">
   <div class="site-header__offset"></div>
   <div class="site-nav__offset"></div>
 
@@ -29,13 +30,17 @@ banner:
       <div class="width width--xl">
         {{page.banner.intro}}
         <div class="space--md"></div>
-        <a href="{{site.baseurl}}/competition" class="btn btn--lg btn--solid">Enter competition</a>
+        <a href="{{site.baseurl}}/competition" class="btn btn--lg btn--solid">Win a Stylish Staycation</a>
       </div>
     </div>
   </div>
 
   <div class="site-nav__offset"></div>
-  <div class="banner__overlay"></div>
+  <div class="banner__bg" style="background-image: url('{{site.img}}/banner/{{page.id}}.jpg')">
+    <div class="banner__overlay"></div>
+    <div class="banner__bg-fade"></div>
+  </div>
+
 </div>
 
 
@@ -43,11 +48,15 @@ banner:
 <div class="container container--100 bg--white">
 
   <div class="row">
-    <div class="container container--xxl vpad--xl text--center intro intro--extrude">
-      <h2 class="title title--md text--bold">Read about our favourite UK getaways</h2>
-      <p class="text--xl">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur blandit tempus porttitor.</p>
+    <div class="container container--xxl text--center intro intro--extrude">
+      <div class="boxpad--lg">
+        <h2 class="title title--sm text--bold">Are you a city chic or country glamour? </h2>
+        <p class="text--xxl">Discover our top picks below as reviewed by seriously fashionable bloggers. </p>
+      </div>
     </div>
   </div>
+
+  <div class="space--xl"></div>
 
   {% include page/all-reviews.html %}
 </div>

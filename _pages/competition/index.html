@@ -6,20 +6,37 @@ nav: true
 nav-order: 4
 
 intro: >
-  <p class="text--xxl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque illum possimus doloremque, voluptates tempore accusamus alias nihil sunt nesciunt placeat perspiciatis adipisci est maiores dolorem quos aperiam! </p>
+  <h2 class="title title--sm text--bolder">Win a chic city break in Manchester and a year’s supply of shoes!</h2>
+
+description: >
+  <p class="text--xxl">Win a two-night stay at the luxurious King Street Townhouse in Manchester, with breakfast and cocktails. To make sure you put your best foot forward, Shoeaholics will supply a year’s worth of shoes – that’s 12 pairs of shoes for all occasions!</p>
+  <p class="text--xxl text--bolder"> Enter here to be in with a chance of winning:</p>
 
 ---
 
 
 
-<div class="container container--xxl vpad--xxl text--center">
+<div class="container container--xxl vpad--xl text--center">
   {{page.intro}}
 </div>
 
-<div id="entry-form">
+
+<div class="row row--constant-4-4-4 row--no-gutters">
+  <div class="col">
+    <div class="bg-img bg-img--3-4 bg-img--xl-4-3" style="background-image: url({{site.img}}/content/competition/01.jpg);"></div>
+  </div>
+  <div class="col">
+    <div class="bg-img bg-img--3-4 bg-img--xl-4-3" style="background-image: url({{site.img}}/content/competition/02.jpg);"></div>
+  </div>
+  <div class="col">
+    <div class="bg-img bg-img--3-4 bg-img--xl-4-3" style="background-image: url({{site.img}}/content/competition/03.jpg);"></div>
+  </div>
+</div>
+
+<div id="entry-form" class="vpad--xl">
   <div class="container container--xxl text--center">
-    <h3 class="title title--lg text--bolder">Enter below for your chance to win</h3>
+    {{page.description}}
     <div class="space--lg"></div>
-    <iframe src="https://promotion5088.strutta.me/" width="100%" height="650"></iframe>
+    <iframe src="https://promotion5088.strutta.me/" width="100%" height="700"></iframe>
   </div>
 </div>

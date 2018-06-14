@@ -11,6 +11,7 @@
   max-height: 700px;
   color: $white;
   background-color: $white;
+  @include background-attributes;
   @include bp($lg){
     height: 75%;
     min-height: 650px;
@@ -99,7 +100,7 @@
   // Overview banner
   &--overview {
     color: $grey-dark;
-    padding: 8em 0 14em;
+    padding: 8em 0 12em;
     .banner__overlay { background-color: $white; }
   }
 }

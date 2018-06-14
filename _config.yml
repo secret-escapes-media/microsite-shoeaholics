@@ -9,10 +9,10 @@ description: >
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/shoeaholics-uk-getaways" # the subpath of your site, e.g. /blog/
-img:     "/shoeaholics-uk-getaways/_assets/img"
-css:     "/shoeaholics-uk-getaways/_assets/css"
-js:      "/shoeaholics-uk-getaways/_assets/js"
+baseurl: "/shoeaholics" # the subpath of your site, e.g. /blog/
+img:     "/shoeaholics/_assets/img"
+css:     "/shoeaholics/_assets/css"
+js:      "/shoeaholics/_assets/js"
 
 
 # Build settings

@@ -4,7 +4,7 @@
 
   // custom content headline
   font-family: $font-title-01;
-  line-height: 1.2;
+  line-height: 1.1;
 
   &--mono { font-family: $font-title-02; }
 
@@ -71,8 +71,9 @@
   // custom banner headline
   font-family: $font-title-01;
   font-size: $s5;
+  line-height: 1.1;
   @include bp($md){ font-size: $s8; }
-  @include bp($xl){ font-size: $s12; }
+  @include bp($xl){ font-size: $s11; }
   // background-image: url(../img/banner/overview.jpg);
   // background-attachment: fixed;
   // background-size: cover;
