@@ -2,18 +2,18 @@
   {% assign content-pages = site.html_pages | where: 'content-pages', 'true' | sort: 'group-order' %}
   {% for page in content-pages %}
     <div class="col">
-      <div class="bg-img bg-img--4-3 bg-img--lg-1-1 bg-img--xxxl-4-3" style="background-image: url('{{site.img}}/banner/{{page.id}}.jpg');">
+      <div class="review-tile bg-img bg-img--4-3 bg-img--lg-1-1 bg-img--xxxl-4-3" style="background-image: url('{{site.img}}/content/overview/{{page.id}}-1.jpg');">
         <a href="{{site.baseurl}}{{page.url}}" class="bg-img__link"></a>
-        <div class="bg-img__content">
-          <div class="boxpad--lg">
-            <h4 class="title title--md text--bold">{{page.title}}</h4>
-            <div class="space--sm"></div>
-            <div class="title title--xxs text--italic">By <span class="text--bold">{{page.by.name}}</span></div>
-            <div class="space--lg"></div>
-            <a href="{{page.link}}" class="btn btn--round btn--arrow btn--arrow-right"></a>
-          </div>
+
+        <div class="review-tile__content">
+          <h4 class="title title--md text--bold">{{page.title}}</h4>
+          <div class="space--xs"></div>
+          <div class="title title--xxs title--mono">By <span class="text--bold">@{{page.by.instagram}}</span></div>
+          <div class="space--md"></div>
+          <span class="btn btn--round btn--arrow btn--arrow-right"></span>
         </div>
-        <div class="bg-img__bg-overlay"></div>
+        <div class="review-tile__overlay"></div>
+        <div class="review-tile__alt-bg" style="background-image: url({{site.img}}/content/overview/{{page.id}}-2.jpg);"></div>
       </div>
     </div>
   {% endfor %}

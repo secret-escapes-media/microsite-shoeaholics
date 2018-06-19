@@ -1,49 +1,102 @@
-- title: FOUR - Spectacular Oslo & Bergen break with optional fjord tour
-  id: spectacular-oslo-bergen-break-with-optional-fjord-tour
-  location: Scandic St. Olavs plass & Clarion Hotel Admiral, Norway
-  description: A fantastic four-night trip to Norway's Oslo and Bergen, with one of the world's most scenic train journeys between the two cities - including flights and an optional fjord tour
-  price: 459
-  price-description: per person for 4 nights
-  saved: 37
-  expires: 2020/04/14
-  link: https://www.secretescapes.com/spectacular-oslo-and-bergen-break-with-optional-fjord-tour-scandic-st-olavs-plass-and-clarion-hotel-admiral-norway-2/sale?gce_urg=0&utm_source=SE&utm_campaign=7_Norway_201703&utm_medium=Hub
 
-- title: FOUR - Farris Bad
-  id: farris-bad
-  location: Larvik, Norway
-  description: Upscale beachfront stay at the first Nordic balneological health resort, with a supersized spa
-  price: 214
-  price-description: per room per night
-  saved: 33
-  expires: 2020/04/20
-  link: https://www.secretescapes.com/farris-bad-larvik-norway/sale?gce_urg=1&gce_scp=0&utm_source=SE&utm_medium=Hub&utm_campaign=12_Norway_201703
 
-- title: FOUR - First Hotel Marin
-  id: first-hotel-marin
-  location: Bergen, Norway
-  description: A unique stay in the centre of picturesque Bergen, just a stone's throw from the harbour
-  price: 48
-  price-description: per room per night
-  saved: 43
-  expires: 2020/04/20
-  link: https://www.secretescapes.com/first-hotel-marin-bergen-norway/sale?gce_scp=1&utm_source=SE&utm_medium=Hub&utm_campaign=13_Norway_201704
 
-- title: FOUR - Magic Hotel
-  id: magic-hotel
-  location: Bergen, Norway
-  description: A brand-new hip hotel in the centre of Bergen, designed by a top New York designer
-  price: 73
+- title: Mondrian London at Sea Containers
+  id: mondrian-london-at-sea-containers
+  location: South Bank, Central London
+  description: A five-star, design-led London hotel on the Thames riverbank
+  price: 155
   price-description: per room per night
-  saved: 55
-  expires: 2020/04/20
-  link: https://www.secretescapes.com/magic-hotel-bergen-norway/sale?gce_hpf=1&utm_source=SE&utm_medium=Hub&utm_campaign=14_Norway_201704
+  saved: 48
+  expires: 2018/06/27
+  link: https://www.secretescapes.com/mondrianseacontainers-london-england/sale-hotel?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
 
-- title: FOUR - Sola Strand Hotel
-  id: sola-strand-hotel
-  location: Sola, Norway
-  description: Discover one of the world's sixth best beaches on Norway's gorgeous coast, with breakfast and more
-  price: 79
+- title: The Curtain Hotel
+  id: the-curtain-hotel
+  location: Shoreditch, London
+  description: A luxe hotel and members' club in London's Shoreditch
+  price: 149
   price-description: per room per night
-  saved: 47
-  expires: 2020/04/20
-  link: https://www.secretescapes.com/sola-strand-hotel-sola-norway/sale?gce_hpf=1&utm_source=SE&utm_medium=Hub&utm_campaign=15_Norway_201704
+  saved: 50
+  expires: 2018/06/27
+  link: https://www.secretescapes.com/thecurtainhotel-london-england/sale-hotel?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
+
+- title: The Mandrake
+  id: the-mandrake
+  location: Fitzrovia, London
+  description: Five-star boutique style and elegance with an enviable London postcode
+  price: 199
+  price-description: per room per night
+  saved: 51
+  expires: 2018/06/27
+  link: https://www.secretescapes.com/the-mandrake-fitzrovia-london/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
+
+- title: The Crazy Bear Stadhampton
+  id: the-crazy-bear-stadhampton
+  location: Stadhampton, Oxfordshire
+  description: A luxuriously opulent Oxfordshire stay with exclusive Champagne, three-course dinner and more
+  price: 275
+  price-description: per room per night
+  saved: 60
+  expires: 2018/07/27
+  link: https://www.secretescapes.com/the-crazy-bear-stadhampton-stadhampton-oxfordshire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
+
+- title: Moddershall Oaks Country Spa Retreat
+  id: moddershall-oaks-country-spa-retreat
+  location: Moddershall, Staffordshire
+  description: A Good Spa Guide-recommended Staffordshire retreat
+  price: 249
+  price-description: per suite per night
+  saved: 35
+  expires: 2018/06/20
+  link: https://www.secretescapes.com/moddershall-oaks-country-spa-retreat-moddershall-staffordshire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
+
+- title: Eastwell Manor - A Champneys Spa Hotel
+  id: eastwell-manor-a-champneys-spa-hotel
+  location: Ashford, Kent
+  description: A stunning Kent manor house with a plush Champneys spa
+  price: 154
+  price-description: per room per night
+  saved: 42
+  expires: 2018/06/20
+  link: https://www.secretescapes.com/eastwell-manor-a-champneys-spa-hotel-ashford-kent/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
+
+- title: Retreat East
+  id: retreat-east
+  location: Hemingstone, Suffolk
+  description: A unique stay at a members-only farm in Suffolk
+  price: 149
+  price-description: per room per night
+  saved: 24
+  expires: 2018/06/26
+  link: https://www.secretescapes.com/retreat-east-hemingstone-suffolk/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
+
+- title: Country Living St George Hotel
+  id: country-living-st-george-hotel
+  location: Harrogate, North Yorkshire
+  description: A superbly revamped Edwardian mansion in Harrogate
+  price: 149
+  price-description: per room per night
+  saved: 36
+  expires: 2018/06/27
+  link: https://www.secretescapes.com/country-living-st-george-hotel-harrogate-north-yorkshire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
+
+- title: De Vere Wotton House
+  id: de-vere-wotton-house
+  location: Dorking, Surrey
+  description: A grand Surrey stay in an elegant country house
+  price: 149
+  price-description: per room per night
+  saved: 40
+  expires: 2018/06/20
+  link: https://www.secretescapes.com/de-vere-wotton-house-dorking-surrey/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
+
+- title: De Vere Beaumont Estate
+  id: de-vere-beaumont-estate
+  location: Windsor, Berkshire
+  description: A superb 18th-century mansion in historic Old Windsor
+  price: 119
+  price-description: per room per night
+  saved: 51
+  expires: 2018/06/20
+  link: https://www.secretescapes.com/de-vere-beaumont-estate-windsor-berkshire1/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018

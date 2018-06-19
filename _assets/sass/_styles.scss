@@ -12,6 +12,55 @@
     }
   }
 }
+
+
+
+.review-tile {
+  &__alt-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    @include background-attributes;
+    @include transition;
+  }
+  &:hover &__alt-bg {
+    opacity: 1;
+  }
+  &__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-content-upper;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: $white;
+    text-align: center;
+    transform: scale(1);
+    @include transition;
+    @include page-padding;
+  }
+  &:hover &__content { transform: scale(1.05); }
+  &__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: rgba($black,.2);
+    @include transition;
+  }
+}
+
+
+
 .products {
   &__item {
     @include transition;
@@ -34,6 +83,8 @@
   }
 }
 
+
+
 .intro {
   &--extrude {
     position: relative;
@@ -43,6 +94,8 @@
     box-shadow: 0 20px 60px 0 rgba($grey-darkest,0.05);
   }
 }
+
+
 
 .promo {
   position: relative;
