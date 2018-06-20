@@ -9,8 +9,8 @@
 
   &--xxxxxl { font-size: $s8; line-height: 1.1; }
   &--xxxxl  { font-size: $s8; line-height: 1.1; }
-  &--xxxl   { font-size: $s8; line-height: 1.1; }
-  &--xxl    { font-size: $s7; line-height: 1.1; }
+  &--xxxl   { font-size: $s7; line-height: 1.1; }
+  &--xxl    { font-size: $s6; line-height: 1.1; }
   &--xl     { font-size: $s6; line-height: 1.1; }
   &--lg     { font-size: $s5; line-height: 1.1; }
   &--md     { font-size: $s4; }
@@ -19,10 +19,10 @@
   &--xxs    { font-size: $s1; }
   &--xxxs   { font-size: $s0; }
   @include bp($lg){
-    &--xxxxxl { font-size: $s11; }
-    &--xxxxl  { font-size: $s10; }
-    &--xxxl   { font-size: $s9; }
-    &--xxl    { font-size: $s8; }
+    &--xxxxxl { font-size: $s10; }
+    &--xxxxl  { font-size: $s9; }
+    &--xxxl   { font-size: $s8; }
+    &--xxl    { font-size: $s7; }
     &--xl     { font-size: $s7; }
     &--lg     { font-size: $s6; }
     &--md     { font-size: $s5; }
@@ -30,6 +30,12 @@
     &--xs     { font-size: $s3; }
     &--xxs    { font-size: $s2; }
     &--xxxs   { font-size: $s1; }
+  }
+  @include bp($xxl){
+    &--xxxxxl { font-size: $s11; }
+    &--xxxxl  { font-size: $s10; }
+    &--xxxl   { font-size: $s9; }
+    &--xxl    { font-size: $s8; }
   }
 
 }
@@ -69,15 +75,10 @@
 .banner-title {
   // custom banner headline
   font-family: $font-title-01;
-  font-size: $s5;
+  font-size: $s6;
   line-height: 1.1;
-  @include bp($md){ font-size: $s8; }
-  @include bp($xl){ font-size: $s11; }
-  // background-image: url(../img/banner/overview.jpg);
-  // background-attachment: fixed;
-  // background-size: cover;
-  // background-position: center;
-  // background-repeat: no-repeat;
-  //  -webkit-background-clip: text;
-  //  -webkit-text-fill-color: transparent;
+  @include bp($md){ font-size: $s7; }
+  @include bp($lg){ font-size: $s8; }
+  @include bp($xl){ font-size: $s10; }
+  @include bp($xxl){ font-size: $s11; }
 }

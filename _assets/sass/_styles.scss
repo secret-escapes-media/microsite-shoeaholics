@@ -2,13 +2,17 @@
 
 
 .review {
-  &__section {
-    &-title {
-      position: relative;
-      z-index: 1;
-    }
+  &__image {
+    border: 2px solid $white;
+  }
+  &__intro {
+    position: relative;
+    margin-top: -60px;
+    padding: $s4 $s4;
+    background-color: $white;
+    box-shadow: 0 20px 60px 0 rgba($grey-darkest,0.05);
     &-image {
-      border: 2px solid $white;
+      max-width: 200px;
     }
   }
 }
@@ -49,10 +53,8 @@
   &:hover &__content { transform: scale(1.05); }
   &__overlay {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    top: 0; left: 0;
+    right: 0; bottom: 0;
     z-index: 1;
     background-color: rgba($black,.2);
     @include transition;
@@ -80,18 +82,6 @@
     &-title {
       padding: $s0 $s0;
     }
-  }
-}
-
-
-
-.intro {
-  &--extrude {
-    position: relative;
-    margin-top: -60px;
-    padding: $s4 $s4;
-    background-color: $white;
-    box-shadow: 0 20px 60px 0 rgba($grey-darkest,0.05);
   }
 }
 
