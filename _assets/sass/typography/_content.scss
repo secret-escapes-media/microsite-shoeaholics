@@ -27,7 +27,7 @@ hr {
   height: 1px;
   background-color: rgba($grey-darkest,0.2);
   margin: $s1 0;
-  .text--white { background-color: rgba($grey-lightest,0.2); }
+  .text--white & { background-color: rgba($grey-lightest,0.2); }
 }
 
 .hr {
