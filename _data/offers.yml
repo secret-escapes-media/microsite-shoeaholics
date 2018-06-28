@@ -8,7 +8,7 @@
   price: 155
   price-description: per room per night
   saved: 48
-  expires: 2018/06/27
+  expires: 2018/07/05
   link: https://www.secretescapes.com/mondrianseacontainers-london-england/sale-hotel?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
 
 - title: The Curtain Hotel
@@ -18,7 +18,7 @@
   price: 149
   price-description: per room per night
   saved: 50
-  expires: 2018/06/27
+  expires: 2018/07/05
   link: https://www.secretescapes.com/thecurtainhotel-london-england/sale-hotel?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
 
 - title: The Mandrake
@@ -28,7 +28,7 @@
   price: 199
   price-description: per room per night
   saved: 51
-  expires: 2018/06/27
+  expires: 2018/07/05
   link: https://www.secretescapes.com/the-mandrake-fitzrovia-london/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
 
 - title: The Crazy Bear Stadhampton
@@ -38,7 +38,7 @@
   price: 275
   price-description: per room per night
   saved: 60
-  expires: 2018/07/27
+  expires: 2018/07/01
   link: https://www.secretescapes.com/the-crazy-bear-stadhampton-stadhampton-oxfordshire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
 
 - title: Moddershall Oaks Country Spa Retreat
@@ -48,18 +48,8 @@
   price: 249
   price-description: per suite per night
   saved: 35
-  expires: 2018/06/20
+  expires: 2018/07/05
   link: https://www.secretescapes.com/moddershall-oaks-country-spa-retreat-moddershall-staffordshire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
-
-- title: Eastwell Manor - A Champneys Spa Hotel
-  id: eastwell-manor-a-champneys-spa-hotel
-  location: Ashford, Kent
-  description: A stunning Kent manor house with a plush Champneys spa
-  price: 154
-  price-description: per room per night
-  saved: 42
-  expires: 2018/06/20
-  link: https://www.secretescapes.com/eastwell-manor-a-champneys-spa-hotel-ashford-kent/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
 
 - title: Retreat East
   id: retreat-east
@@ -68,35 +58,45 @@
   price: 149
   price-description: per room per night
   saved: 24
-  expires: 2018/06/26
+  expires: 2018/07/01
   link: https://www.secretescapes.com/retreat-east-hemingstone-suffolk/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
 
-- title: Country Living St George Hotel
-  id: country-living-st-george-hotel
-  location: Harrogate, North Yorkshire
-  description: A superbly revamped Edwardian mansion in Harrogate
-  price: 149
-  price-description: per room per night
-  saved: 36
-  expires: 2018/06/27
-  link: https://www.secretescapes.com/country-living-st-george-hotel-harrogate-north-yorkshire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
-
-- title: De Vere Wotton House
-  id: de-vere-wotton-house
-  location: Dorking, Surrey
-  description: A grand Surrey stay in an elegant country house
-  price: 149
+- title: Lympstone Manor
+  id: lympstone-manor
+  location: Exmouth, Devon
+  description: A sensational Exmouth hotel and vineyard by chef Michael Caines
+  price: 365
   price-description: per room per night
   saved: 40
-  expires: 2018/06/20
-  link: https://www.secretescapes.com/de-vere-wotton-house-dorking-surrey/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
+  expires: 2018/07/05
+  link: https://www.secretescapes.com/michelin-star-dining-at-a-gorgeous-devon-retreat-lympstone-manor-exmouth/sale?utm_source=SE_Media&utm_medium=Shoeaholics&utm_campaign=June2018
 
-- title: De Vere Beaumont Estate
-  id: de-vere-beaumont-estate
-  location: Windsor, Berkshire
-  description: A superb 18th-century mansion in historic Old Windsor
+- title: Laura Ashley Hotel - The Manor Elstree
+  id: laura-ashley-hotel-the-manor-elstree
+  location: Elstree, Hertfordshire
+  description: An elegant Laura Ashley-owned hotel in Hertfordshire
+  price: 159
+  price-description: per room per night
+  saved: 32
+  expires: 2018/07/05
+  link: https://www.secretescapes.com/laura-ashley-hotel-the-manor-elstree-elstree-hertfordshire/sale?utm_source=SE_Media&utm_medium=Shoeaholics&utm_campaign=June2018
+
+- title: The Quay Hotel & Spa
+  id: the-quay-hotel-spa
+  location: Conwy, North Wales
+  description: A stylish spa hotel with AA Rosette dining in North Wales
+  price: 99
+  price-description: per room per night
+  saved: 61
+  expires: 2018/07/05
+  link: https://www.secretescapes.com/the-quay-hotel-and-spa-conwy-north-wales/sale?utm_source=SE_Media&utm_medium=Shoeaholics&utm_campaign=June2018
+
+- title: Formby Hall Golf Resort & Spa
+  id: formby-hall-golf-resort-spa
+  location: Formby, Merseyside
+  description: A sophisticated golf and spa resort in rural Merseyside
   price: 119
   price-description: per room per night
-  saved: 51
-  expires: 2018/06/20
-  link: https://www.secretescapes.com/de-vere-beaumont-estate-windsor-berkshire1/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
+  saved: 46
+  expires: 2018/07/05
+  link: https://www.secretescapes.com/formby-hall-golf-resort-and-spa-formby-merseyside/sale?utm_source=SE_Media&utm_medium=Shoeaholics&utm_campaign=June2018
