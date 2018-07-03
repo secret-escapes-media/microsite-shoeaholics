@@ -31,36 +31,6 @@
   expires: 2018/07/05
   link: https://www.secretescapes.com/the-mandrake-fitzrovia-london/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
 
-- title: The Crazy Bear Stadhampton
-  id: the-crazy-bear-stadhampton
-  location: Stadhampton, Oxfordshire
-  description: A luxuriously opulent Oxfordshire stay with exclusive Champagne, three-course dinner and more
-  price: 275
-  price-description: per room per night
-  saved: 60
-  expires: 2018/07/01
-  link: https://www.secretescapes.com/the-crazy-bear-stadhampton-stadhampton-oxfordshire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
-
-- title: Moddershall Oaks Country Spa Retreat
-  id: moddershall-oaks-country-spa-retreat
-  location: Moddershall, Staffordshire
-  description: A Good Spa Guide-recommended Staffordshire retreat
-  price: 249
-  price-description: per suite per night
-  saved: 35
-  expires: 2018/07/05
-  link: https://www.secretescapes.com/moddershall-oaks-country-spa-retreat-moddershall-staffordshire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
-
-- title: Retreat East
-  id: retreat-east
-  location: Hemingstone, Suffolk
-  description: A unique stay at a members-only farm in Suffolk
-  price: 149
-  price-description: per room per night
-  saved: 24
-  expires: 2018/07/01
-  link: https://www.secretescapes.com/retreat-east-hemingstone-suffolk/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
-
 - title: Lympstone Manor
   id: lympstone-manor
   location: Exmouth, Devon
@@ -100,3 +70,63 @@
   saved: 46
   expires: 2018/07/05
   link: https://www.secretescapes.com/formby-hall-golf-resort-and-spa-formby-merseyside/sale?utm_source=SE_Media&utm_medium=Shoeaholics&utm_campaign=June2018
+
+- title: Tamburlaine
+  id: tamburlaine
+  location: Cambridge, Cambridgeshire
+  description: Gorgeous designer-led digs in a new Cambridge hotel
+  price: 155
+  price-description: per room per night
+  saved: 45
+  expires: 2018/07/10
+  link: https://www.secretescapes.com/tamburlaine-cambridge-cambridgeshire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
+
+- title: Swinton Park Hotel & Spa
+  id: swinton-park-hotel-spa
+  location: Masham, North Yorkshire
+  description: A luxury castle hotel on the edge of the Yorkshire Dales
+  price: 249
+  price-description: per room per night
+  saved: 56
+  expires: 2018/07/10
+  link: https://www.secretescapes.com/swinton-park-masham-north-yorkshire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
+
+- title: Homewood Park Hotel & Spa
+  id: homewood-park-hotel-spa
+  location: Bath, Somerset
+  description: Award-winning gourmet and spa hotel near picturesque Bath
+  price: 149
+  price-description: per room per night
+  saved: 60
+  expires: 2018/07/10
+  link: https://www.secretescapes.com/homewood-park-hotel-and-spa-bath-somerset/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
+
+- title: Courthouse Hotel Shoreditch
+  id: courthouse-hotel-shoreditch
+  location: East End, London
+  description: A Shoreditch courthouse turned hip hotel with pool
+  price: 169
+  price-description: per room per night
+  saved: 45
+  expires: 2018/07/10
+  link: https://www.secretescapes.com/courthouse-hotel-shoreditch-east-end-london/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
+
+- title: Lords of the Manor
+  id: lords-of-the-manor
+  location: Upper Slaughter, Cheltenham
+  description: Gourmet gastronomy and parkland views in the Cotswolds
+  price: 239
+  price-description: per room per night
+  saved: 49
+  expires: 2018/07/10
+  link: https://www.secretescapes.com/lords-of-the-manor-upper-slaughter-cheltenham/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
+
+- title: Home House
+  id: home-house
+  location: Marylebone, London
+  description: An exclusive members' club tucked behind London's Oxford Street
+  price: 179
+  price-description: per suite per night
+  saved: 62
+  expires: 2018/07/10
+  link: https://www.secretescapes.com/home-house-marylebone-london/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
