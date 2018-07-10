@@ -1,36 +1,6 @@
 
 
 
-- title: Mondrian London at Sea Containers
-  id: mondrian-london-at-sea-containers
-  location: South Bank, Central London
-  description: A five-star, design-led London hotel on the Thames riverbank
-  price: 155
-  price-description: per room per night
-  saved: 48
-  expires: 2018/07/05
-  link: https://www.secretescapes.com/mondrianseacontainers-london-england/sale-hotel?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
-
-- title: The Curtain Hotel
-  id: the-curtain-hotel
-  location: Shoreditch, London
-  description: A luxe hotel and members' club in London's Shoreditch
-  price: 149
-  price-description: per room per night
-  saved: 50
-  expires: 2018/07/05
-  link: https://www.secretescapes.com/thecurtainhotel-london-england/sale-hotel?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
-
-- title: The Mandrake
-  id: the-mandrake
-  location: Fitzrovia, London
-  description: Five-star boutique style and elegance with an enviable London postcode
-  price: 199
-  price-description: per room per night
-  saved: 51
-  expires: 2018/07/05
-  link: https://www.secretescapes.com/the-mandrake-fitzrovia-london/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_June2018
-
 - title: Lympstone Manor
   id: lympstone-manor
   location: Exmouth, Devon
@@ -120,3 +90,65 @@
   saved: 62
   expires: 2018/07/10
   link: https://www.secretescapes.com/home-house-marylebone-london/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
+
+- title: The Lodge Hotel
+  id: the-lodge-hotel
+  location: Putney, South West London
+  description: A stylish boutique hotel in leafy South West London
+  price: 99
+  price-description: per room per night
+  saved: 46
+  expires: 2018/07/17
+  link: https://www.secretescapes.com/the-lodge-hotel-putney-south-west-london/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
+
+- title: De Vere Selsdon Estate
+  id: de-vere-selsdon-estate
+  location: Croydon, Surrey
+  description: Newly revamped country mansion in stylish Surrey
+  price: 125
+  price-description: per room per night
+  saved: 34
+  expires: 2018/07/17
+  link: https://www.secretescapes.com/selsdonparkhotel/sale-hotel?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
+
+- title: The Devonshire Club
+  id: the-devonshire-club
+  location: Liverpool Street, London
+  description: High-end design at a plush private members' club in London
+  price: 129
+  price-description: per room per night
+  saved: 59
+  expires: 2018/07/17
+  link: https://www.secretescapes.com/the-devonshire-club-liverpool-street-london/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
+
+- title: Oddfellows On The Park
+  id: oddfellows-on-the-park
+  location: Cheadle, near Cheshire
+  description: A grandiose country house with boutique interiors near Cheshire
+  price: 159
+  price-description: per room per night
+  saved: 44
+  expires: 2018/07/17
+  link: https://www.secretescapes.com/oddfellows-on-the-park-cheadle-near-cheshire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
+
+- title: Rockliffe Hall
+  id: rockliffe-hall
+  location: Darlington, County Durham
+  description: An award-winning gourmet, golf and spa hotel in Durham
+  price: 175
+  price-description: per room per night
+  saved: 39
+  expires: 2018/07/17
+  link: https://www.secretescapes.com/rockliffe-hall-darlington-county-durham/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
+
+- title: The Llawnroc Hotel
+  id: the-llawnroc-hotel
+  location: St Austell, Cornwall
+  description: A coastal Cornish bolthole with sublime sea views
+  price: 99
+  price-description: per room per night
+  saved: 34
+  expires: 2018/07/17
+  link: https://www.secretescapes.com/the-llawnroc-hotel-st-austell-cornwall/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
+
+
