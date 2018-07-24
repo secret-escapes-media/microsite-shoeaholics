@@ -48,36 +48,6 @@
   expires: 2018/07/25
   link: https://www.secretescapes.com/homewood-park-hotel-and-spa-bath-somerset/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
 
-- title: Courthouse Hotel Shoreditch
-  id: courthouse-hotel-shoreditch
-  location: East End, London
-  description: A Shoreditch courthouse turned hip hotel with pool
-  price: 169
-  price-description: per room per night
-  saved: 45
-  expires: 2018/07/21
-  link: https://www.secretescapes.com/courthouse-hotel-shoreditch-east-end-london/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
-
-- title: Lords of the Manor
-  id: lords-of-the-manor
-  location: Upper Slaughter, Cheltenham
-  description: Gourmet gastronomy and parkland views in the Cotswolds
-  price: 239
-  price-description: per room per night
-  saved: 49
-  expires: 2018/07/21
-  link: https://www.secretescapes.com/lords-of-the-manor-upper-slaughter-cheltenham/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
-
-- title: Home House
-  id: home-house
-  location: Marylebone, London
-  description: An exclusive members' club tucked behind London's Oxford Street
-  price: 179
-  price-description: per suite per night
-  saved: 62
-  expires: 2018/07/23
-  link: https://www.secretescapes.com/home-house-marylebone-london/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
-
 - title: The Lodge Hotel
   id: the-lodge-hotel
   location: Putney, South West London
@@ -157,3 +127,33 @@
   saved: 33
   expires: 2018/07/25
   link: https://www.secretescapes.com/the-principal-york-york-yorkshire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
+
+- title: The Curtain Hotel and Members Club
+  id: the-curtain-hotel-and-members-club
+  location: Shoreditch, London
+  description: A luxe hotel and members' club in London's hip Shoreditch
+  price: 180
+  price-description: per room per night
+  saved: 31
+  expires: 2018/08/01
+  link: https://www.secretescapes.com/the-curtain-shoreditch-london/sale-hotel?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
+
+- title: Lainston House
+  id: lainston-house
+  location: Sparsholt, Winchester
+  description: Five-star Winchester country house with stellar dining
+  price: 189
+  price-description: per suite per night
+  saved: 37
+  expires: 2018/08/01
+  link: https://www.secretescapes.com/lainston-house-sparsholt-winchester/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
+
+- title: Lifehouse Spa & Hotel
+  id: lifehouse-spa-hotel
+  location: Thorpe-le-Soken, Essex
+  description: Modern design at an adults-only Essex spa hotel
+  price: 89
+  price-description: per room per night
+  saved: 37
+  expires: 2018/08/01
+  link: https://www.secretescapes.com/lifehouse-spa-and-hotel-thorpe-le-soken-essex/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
