@@ -1,12 +1,5 @@
-- title: Lympstone Manor
-  id: lympstone-manor
-  location: Exmouth, Devon
-  description: A sensational Exmouth hotel and vineyard by chef Michael Caines
-  price: 365
-  price-description: per room per night
-  saved: 40
-  expires: 2018/07/21
-  link: https://www.secretescapes.com/michelin-star-dining-at-a-gorgeous-devon-retreat-lympstone-manor-exmouth/sale?utm_source=SE_Media&utm_medium=Shoeaholics&utm_campaign=June2018
+
+
 
 - title: The Quay Hotel & Spa
   id: the-quay-hotel-spa
@@ -17,16 +10,6 @@
   saved: 61
   expires: 2018/07/25
   link: https://www.secretescapes.com/the-quay-hotel-and-spa-conwy-north-wales/sale?utm_source=SE_Media&utm_medium=Shoeaholics&utm_campaign=June2018
-
-- title: Tamburlaine
-  id: tamburlaine
-  location: Cambridge, Cambridgeshire
-  description: Gorgeous designer-led digs in a new Cambridge hotel
-  price: 155
-  price-description: per room per night
-  saved: 45
-  expires: 2018/07/21
-  link: https://www.secretescapes.com/tamburlaine-cambridge-cambridgeshire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
 
 - title: Swinton Park Hotel & Spa
   id: swinton-park-hotel-spa
@@ -48,16 +31,6 @@
   expires: 2018/07/25
   link: https://www.secretescapes.com/homewood-park-hotel-and-spa-bath-somerset/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
 
-- title: The Lodge Hotel
-  id: the-lodge-hotel
-  location: Putney, South West London
-  description: A stylish boutique hotel in leafy South West London
-  price: 99
-  price-description: per room per night
-  saved: 46
-  expires: 2018/07/25
-  link: https://www.secretescapes.com/the-lodge-hotel-putney-south-west-london/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
-
 - title: De Vere Selsdon Estate
   id: de-vere-selsdon-estate
   location: Croydon, Surrey
@@ -78,16 +51,6 @@
   expires: 2018/07/25
   link: https://www.secretescapes.com/the-devonshire-club-liverpool-street-london/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
 
-- title: The Llawnroc Hotel
-  id: the-llawnroc-hotel
-  location: St Austell, Cornwall
-  description: A coastal Cornish bolthole with sublime sea views
-  price: 99
-  price-description: per room per night
-  saved: 34
-  expires: 2018/07/25
-  link: https://www.secretescapes.com/the-llawnroc-hotel-st-austell-cornwall/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
-
 - title: The Ickworth Hotel
   id: the-ickworth-hotel
   location: Bury St Edmunds, Suffolk
@@ -107,26 +70,6 @@
   saved: 42
   expires: 2018/07/25
   link: https://www.secretescapes.com/hoar-cross-hall-hoar-cross-staffordshire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
-
-- title: K West Hotel & Spa
-  id: k-west-hotel-spa
-  location: Shepherd's Bush, London
-  description: Stay at an award-winning West London spa hotel with exceptional facilities and cosy, modern interiors – includes spa credit, optional dinner and more
-  price: 119
-  price-description: per room per night
-  saved: 39
-  expires: 2018/07/25
-  link: https://www.secretescapes.com/k-west-hotel-and-spa-shepherds-bush-london/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
-
-- title: The Principal York
-  id: the-principal-york
-  location: York, Yorkshire
-  description: A stylish stay at a revamped Victorian hotel with pool and gym right next to York railway station - includes full English breakfast and three-course dinner
-  price: 179
-  price-description: per room per night
-  saved: 33
-  expires: 2018/07/25
-  link: https://www.secretescapes.com/the-principal-york-york-yorkshire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
 
 - title: The Curtain Hotel and Members Club
   id: the-curtain-hotel-and-members-club
@@ -157,3 +100,43 @@
   saved: 37
   expires: 2018/08/01
   link: https://www.secretescapes.com/lifehouse-spa-and-hotel-thorpe-le-soken-essex/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
+
+- title: Sanctum Soho Hotel
+  id: sanctum-soho-hotel
+  location: Soho, London
+  description: An award-winning boutique hotel in London's vibrant Soho
+  price: 149
+  price-description: per room per night
+  saved: 54
+  expires: 2018/08/01
+  link: https://www.secretescapes.com/sanctum-soho-hotel-soho-london/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
+
+- title: The Grand Hotel & Spa
+  id: the-grand-hotel-spa
+  location: York, North Yorkshire
+  description: A five-star York stay with spa and three AA Rosette dining
+  price: 161
+  price-description: per room per night
+  saved: 30
+  expires: 2018/08/01
+  link: https://www.secretescapes.com/the-grand-hotel-and-spa-york-north-yorkshire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
+
+- title: Sleek Hampshire hotel with gourmet afternoon tea option
+  id: sleek-hampshire-hotel-with-gourmet-afternoon-tea-option
+  location: The Aviator Hotel, Farnborough
+  description: A striking design hotel with two AA Rosette dining in Farnborough
+  price: 89
+  price-description: per room per night
+  saved: 45
+  expires: 2018/08/01
+  link: https://www.secretescapes.com/a-sleek-and-modern-hampshire-hotel-with-gourmet-afternoon-tea-option-the-aviator-hotel-farnborough/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
+
+- title: The Samling
+  id: the-samling
+  location: Windermere, Lake District
+  description: World-class dining and Windermere views in the Lake District
+  price: 390
+  price-description: per room per night
+  saved: 38
+  expires: 2018/08/01
+  link: https://www.secretescapes.com/the-samling-windermere-lake-district/sale?se_source=ep&utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
