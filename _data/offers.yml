@@ -1,26 +1,6 @@
 
 
 
-- title: The Quay Hotel & Spa
-  id: the-quay-hotel-spa
-  location: Conwy, North Wales
-  description: A stylish spa hotel with AA Rosette dining in North Wales
-  price: 99
-  price-description: per room per night
-  saved: 61
-  expires: 2018/07/25
-  link: https://www.secretescapes.com/the-quay-hotel-and-spa-conwy-north-wales/sale?utm_source=SE_Media&utm_medium=Shoeaholics&utm_campaign=June2018
-
-- title: Swinton Park Hotel & Spa
-  id: swinton-park-hotel-spa
-  location: Masham, North Yorkshire
-  description: A luxury castle hotel on the edge of the Yorkshire Dales
-  price: 249
-  price-description: per room per night
-  saved: 56
-  expires: 2018/07/25
-  link: https://www.secretescapes.com/swinton-park-masham-north-yorkshire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
-
 - title: Homewood Park Hotel & Spa
   id: homewood-park-hotel-spa
   location: Bath, Somerset
@@ -28,7 +8,7 @@
   price: 149
   price-description: per room per night
   saved: 60
-  expires: 2018/07/25
+  expires: 2018/08/07
   link: https://www.secretescapes.com/homewood-park-hotel-and-spa-bath-somerset/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
 
 - title: De Vere Selsdon Estate
@@ -38,7 +18,7 @@
   price: 125
   price-description: per room per night
   saved: 34
-  expires: 2018/07/25
+  expires: 2018/08/07
   link: https://www.secretescapes.com/selsdonparkhotel/sale-hotel?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
 
 - title: The Devonshire Club
@@ -48,7 +28,7 @@
   price: 129
   price-description: per room per night
   saved: 59
-  expires: 2018/07/25
+  expires: 2018/08/07
   link: https://www.secretescapes.com/the-devonshire-club-liverpool-street-london/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
 
 - title: The Ickworth Hotel
@@ -58,7 +38,7 @@
   price: 139
   price-description: per room per night
   saved: 39
-  expires: 2018/07/25
+  expires: 2018/08/04
   link: https://www.secretescapes.com/the-ickworth-hotel-bury-st-edmunds-suffolk/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
 
 - title: Hoar Cross Hall
@@ -68,28 +48,8 @@
   price: 229
   price-description: per room per night
   saved: 42
-  expires: 2018/07/25
+  expires: 2018/08/07
   link: https://www.secretescapes.com/hoar-cross-hall-hoar-cross-staffordshire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
-
-- title: The Curtain Hotel and Members Club
-  id: the-curtain-hotel-and-members-club
-  location: Shoreditch, London
-  description: A luxe hotel and members' club in London's hip Shoreditch
-  price: 180
-  price-description: per room per night
-  saved: 31
-  expires: 2018/08/01
-  link: https://www.secretescapes.com/the-curtain-shoreditch-london/sale-hotel?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
-
-- title: Lainston House
-  id: lainston-house
-  location: Sparsholt, Winchester
-  description: Five-star Winchester country house with stellar dining
-  price: 189
-  price-description: per suite per night
-  saved: 37
-  expires: 2018/08/01
-  link: https://www.secretescapes.com/lainston-house-sparsholt-winchester/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
 
 - title: Lifehouse Spa & Hotel
   id: lifehouse-spa-hotel
@@ -98,7 +58,7 @@
   price: 89
   price-description: per room per night
   saved: 37
-  expires: 2018/08/01
+  expires: 2018/08/07
   link: https://www.secretescapes.com/lifehouse-spa-and-hotel-thorpe-le-soken-essex/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
 
 - title: Sanctum Soho Hotel
@@ -108,7 +68,7 @@
   price: 149
   price-description: per room per night
   saved: 54
-  expires: 2018/08/01
+  expires: 2018/08/07
   link: https://www.secretescapes.com/sanctum-soho-hotel-soho-london/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
 
 - title: The Grand Hotel & Spa
@@ -118,7 +78,7 @@
   price: 161
   price-description: per room per night
   saved: 30
-  expires: 2018/08/01
+  expires: 2018/08/07
   link: https://www.secretescapes.com/the-grand-hotel-and-spa-york-north-yorkshire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
 
 - title: Sleek Hampshire hotel with gourmet afternoon tea option
@@ -128,7 +88,7 @@
   price: 89
   price-description: per room per night
   saved: 45
-  expires: 2018/08/01
+  expires: 2018/08/07
   link: https://www.secretescapes.com/a-sleek-and-modern-hampshire-hotel-with-gourmet-afternoon-tea-option-the-aviator-hotel-farnborough/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
 
 - title: The Samling
@@ -138,5 +98,5 @@
   price: 390
   price-description: per room per night
   saved: 38
-  expires: 2018/08/01
+  expires: 2018/08/07
   link: https://www.secretescapes.com/the-samling-windermere-lake-district/sale?se_source=ep&utm_source=microsite&utm_medium=SE_media&utm_campaign=Shoeaholics_July2018
